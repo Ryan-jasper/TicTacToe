@@ -14,7 +14,7 @@ public class TicTacToe {
         // Menanyakan siapa yang main duluan
         System.out.print("Apakah Anda ingin bermain duluan? (Iya/Tidak): ");
         String input = scan.nextLine().trim().toLowerCase();
-        boolean userTurn = input.equals("i");
+        boolean userTurn = input.equals("iya");
 
         // Menetapkan simbol berdasarkan giliran pertama
         user = userTurn ? 'X' : 'O';
